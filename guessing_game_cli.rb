@@ -5,7 +5,7 @@ def run_guessing_game
   input = gets.chomp
   #binding.pry
   if input == "exit"
-    puts "Goodbye"
+    puts "Goodbye!"
   elsif input == number.to_s
     puts "You guessed the correct number!"
   elsif input != number
