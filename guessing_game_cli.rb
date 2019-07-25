@@ -4,6 +4,7 @@ def run_guessing_game
   number = rand(6)+1
 
   input = gets.chomp
+  binding.pry
   
   if input != "exit"
     if input == number
