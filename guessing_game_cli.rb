@@ -1,9 +1,9 @@
 # Code your solution here!
-require 'pry'
+#require 'pry'
 def run_guessing_game
   number = rand(6)+1
   input = gets.chomp
-  binding.pry
+  #binding.pry
   
   if input == number
     return "You guessed the correct number!"
